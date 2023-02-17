@@ -1,0 +1,22 @@
+export const constants = {
+  BASE_URL: "http://localhost:9000/core/elancoAPI",
+  QUERY_PARENT: "?name=",
+  QUERY_CHILD: "&childName=",
+  APPLICATIONS: "applications",
+  RESOURCES: "resources",
+  RAW: "raw",
+  IS_QUERY_CHILD_NULLABLE: null,
+  GRID_HEADERS: [
+    "ConsumedQuantity",
+    "Cost",
+    "Date",
+    "InstanceId",
+    "MeterCategory",
+    "ResourceGroup",
+    "ResourceLocation",
+    "Tags-Env",
+    "UnitOfMeasure",
+    "Location",
+    "ServiceName",
+  ],
+};
